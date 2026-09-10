@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="50%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#gpGrad)" />
+  <g transform="translate(64, 64) scale(0.75)">
+    <!-- Central Gov Emblem & Pillar -->
+    <path d="M256 40 L450 140 L450 280 C450 390 256 490 256 490 C256 490 62 390 62 280 L62 140 Z" fill="none" stroke="#ffffff" stroke-width="24" stroke-linejoin="round"/>
+    <path d="M256 100 L400 176 L400 280 C400 360 256 440 256 440 C256 440 112 360 112 280 L112 176 Z" fill="rgba(255,255,255,0.1)"/>
+    <!-- Sun / Ashoka Chakra Glow -->
+    <circle cx="256" cy="230" r="60" fill="url(#amberGrad)" />
+    <circle cx="256" cy="230" r="40" fill="#ffffff" />
+    <circle cx="256" cy="230" r="16" fill="#0f766e" />
+    <!-- Rural Spire / Tower / Leaf lines -->
+    <path d="M256 140 L256 320" stroke="#0f766e" stroke-width="12" stroke-linecap="round"/>
+    <path d="M200 260 L256 210 L312 260" stroke="#0f766e" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <!-- Checkmark of Verified Governance -->
+    <path d="M190 350 L240 395 L335 295" fill="none" stroke="#fbbf24" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

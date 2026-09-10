@@ -1,0 +1,11 @@
+{
+  "name": "GramaPala - Digital Public Asset Registry & Rural Governance",
+  "description": "Multi-tier GovTech governance intelligence platform for Karnataka Rural Development & Panchayat Raj: State Apex Secretariat, Zilla Panchayat (District), Taluk Panchayat (EO), and Gram Panchayat (PDO) asset health tracking, fund utilization audits, and contractor accountability.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
